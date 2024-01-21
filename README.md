@@ -27,7 +27,7 @@ from topsis import topsis'''
 
 Let's say we have the following decision matrix:
 
-Fund Name	P1    P2	P3	  P4	P5
+Fund Name   P1    P2	P3	  P4	P5
 M1	        0.7	0.49    3.1	42.2	11.62
 M2	        0.71 0.5	5.2	53.7	15.03
 M3	        0.9	0.81    4.6	55.8	15.53
