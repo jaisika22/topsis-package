@@ -1,5 +1,7 @@
 # TOPSIS-JAISIKA-102103378
 
+## Link to the package : https://pypi.org/project/Topsis-Jaisika-102103378/
+
 ## Project Description
 
 The topsis package is a Python library for dealing with Multiple Criteria Decision Making (MCDM) problems by using the Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS). This package provides a simple and efficient way to perform TOPSIS calculations for decision-making purposes.
