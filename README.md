@@ -9,36 +9,39 @@ The topsis package is a Python library for dealing with Multiple Criteria Decisi
 ## Installation
 
 To install the topsis package, you can use pip:
- --------------------
-| pip install topsis |
-|--------------------|
+ --------------------------------------
+| pip install Topsis-Jaisika-102103378 |
+|--------------------------------------|
+
 ## Usage
 
-To use the topsis package, you can call the topsis() function with the following arguments:
+Call the topsis() function:
 
-matrix: A numpy array containing the decision matrix.
-weights: A 1D numpy array containing the weights of each criterion.
-impacts: A 1D numpy array containing the impacts (+ or -) of each criterion.
+Matrix: A numpy array containing the decision matrix.
+Weights: A 1D numpy array containing the weights of each criterion.
+Impacts: A 1D numpy array containing the impacts (+ or -) of each criterion.
 
 Here's an example:
+ ----------------------------
+| import numpy as np        |
+| from topsis import topsis |
+|---------------------------|
 
 
-'''import numpy as np
-from topsis import topsis'''
 
 Let's say we have the following decision matrix:
 
 | Fund Name|    P1    |    P2    |     P3   |    P4    |     P5   |
 |----------|----------|----------|----------|----------|----------|
-| M1       |    0.7	  |   0.49   |     3.1	|   42.2   |   11.62  |
-| M2       |   0.71   |   0.5	 |     5.2	|   53.7   |   15.03  |
-| M3	   |    0.9	  |   0.81   |     4.6	|   55.8   |  15.53   |
-| M4	   |    0.63  |    0.4	 |     6.5	|   53.8   |  15.33   |
-M5      	0.86 0.74	5.8	30.5	9.48
-M6	        0.83 0.69	6.2	49.8	14.38
-M7	        0.63 0.4	4.2	64.3	17.38
-M8	        0.78 0.61	5	40.9	11.82
-
+| M1       |    0.7	  |   0.49   |     3.1	 |   42.2   |   11.62  |
+| M2       |    0.71  |   0.5	   |     5.2	 |   53.7   |   15.03  |
+| M3	      |    0.9	  |   0.81   |     4.6	 |   55.8   |   15.53  |
+| M4	      |    0.63  |    0.4	  |     6.5	 |   53.8   |   15.33  |
+| M5      	|    0.86  |   0.74	  |     5.8	 |   30.5	  |   9.48   |
+| M6	      |    0.83  |   0.69	  |     6.2	 |   49.8	  |   14.38  |
+| M7	      |    0.63  |   0.4	   |     4.2	 |   64.3   |  	17.38  |
+| M8	      |    0.78  |   0.61	  |      5	  |   40.9	  |   11.82  |
+-------------------------------------------------------------------
 ### Define the decision matrix
 matrix = np.array([[0.84, 0.71, 6.7, 42.1, 12.59],
     [0.91, 0.83, 7.0, 31.7, 10.11],
