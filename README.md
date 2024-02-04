@@ -10,9 +10,9 @@ The topsis package is a Python library for dealing with Multiple Criteria Decisi
 
 To install the topsis package, you can use pip:
  
- -------------------
-|pip install topsis |
- -------------------
+|--------------------|
+| pip install topsis |
+|--------------------|
 ## Usage
 
 To use the topsis package, you can call the topsis() function with the following arguments:
