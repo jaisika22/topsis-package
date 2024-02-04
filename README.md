@@ -22,7 +22,7 @@ Weights: A 1D numpy array containing the weights of each criterion.
 Impacts: A 1D numpy array containing the impacts (+ or -) of each criterion.
 
 Here's an example:
-|---------------------------|
+ ---------------------------
 | import numpy as np        |
 | from topsis import topsis |
 |---------------------------|
