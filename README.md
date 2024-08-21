@@ -27,7 +27,9 @@ To install the topsis package, you can use pip:
 Call the topsis() function:
 
 Matrix: A numpy array containing the decision matrix.
+
 Weights: A 1D numpy array containing the weights of each criterion.
+
 Impacts: A 1D numpy array containing the impacts (+ or -) of each criterion.
 
 
